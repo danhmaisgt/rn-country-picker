@@ -54,6 +54,7 @@ const styles = StyleSheet.create({
   },
   countryNameTextStyle: {
     color: "#000",
+    fontSize: 16,
     marginLeft: 10,
     textAlign: I18nManager.isRTL ? "right" : "left",
   },

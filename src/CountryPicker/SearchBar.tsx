@@ -15,8 +15,6 @@ const SearchBar = (props) => {
   const [_text, setText] = useState("");
   return (
     <View style={[styles.searchBarStyle, props.searchBarContainerStyle]}>
-      <Image resizeMode="contain" style={styles.imageStyle} source={search} />
-
       {!props.hideSearchBar && (
         <TextInput
           style={[styles.textInputStyle, props.searchInputStyle]}
