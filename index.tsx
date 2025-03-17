@@ -12,10 +12,10 @@ import {
   ImageSourcePropType,
   ImageStyle,
 } from "react-native";
-import CountryJSON from "./src/countryPicker/countries.json";
-import SearchBar from "./src/countryPicker/SearchBar";
-import CountryListItem from "./src/countryPicker/CountryListItem";
-import CountryButton from "./src/countryPicker/CountryButton";
+import CountryJSON from "./src/CountryPicker/countries.json";
+import SearchBar from "./src/CountryPicker/SearchBar";
+import CountryListItem from "./src/CountryPicker/CountryListItem";
+import CountryButton from "./src/CountryPicker/CountryButton";
 
 const CountryPicker = (props: CountryPickerProps) => {
   const [countryJson, setCountryJson] = useState<any[]>(CountryJSON);
